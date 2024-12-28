@@ -8,7 +8,7 @@ const PersonalCard = ({Lang}:PersonalProps) => {
   return (
     <div id="About" className=" bg-white h-screen w-full items-center px-5 flex flex-col justify-center md:flex-row-reverse gap-2 md:px-14 md:gap-10 dark:bg-black"> 
     <div className="flex justify-center w-full  mt-10 ">
-        <img src="/Profile.jpeg" alt="My Photo" className="size-fit max-w-60 mt-5  rounded-lg shadow-md md:w-full md:max-w-md"/>
+        <img src="/Profile.jpeg" alt="My Photo" className="size-fit max-w-60 mt-5  rounded-lg shadow-md md:w-full md:max-w-[400px]"/>
     </div>
         
         <div className="flex flex-col gap-1 text-center md:text-left flex-shrink-0 md:w-1/2">

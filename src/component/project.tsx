@@ -5,7 +5,7 @@ interface ProjectProps{
 const Project = ({Lang}:ProjectProps) => {
   return (
     <div id="Projects" className=" h-auto flex flex-col px-3 md:px-14 gap-3 md:gap-10 md:items-center justify-center py-10 mt-10">
-         <div className="flex flex-col gap-1 md:w-1/2 mb-5 justify-center">
+         <div className="flex flex-col gap-1 md:w-1/ss2 mb-5 justify-center">
             <h1 className="font-extrabold text-2xl text-center dark:text-white">
                 MY PROJECT
             </h1>
